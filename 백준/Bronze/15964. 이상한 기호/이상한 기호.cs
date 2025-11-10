@@ -4,9 +4,9 @@ namespace Baekjoon
     {
         static void Main()
         {
-            int[] inputs = Console.ReadLine().Split().Select(int.Parse).Take(2).ToArray();
-            int a = inputs[0];
-            int b = inputs[1];
+            long[] inputs = Console.ReadLine().Split().Select(long.Parse).Take(2).ToArray();
+            long a = inputs[0];
+            long b = inputs[1];
 
             Console.WriteLine($"{(a + b) * (a - b)}");
 
